@@ -1,0 +1,9 @@
+# -----------------------------------------------------
+# Allow large directories (your temp-output folders)
+# -----------------------------------------------------
+Options +Indexes
+
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile /home/path/to/.htpasswd
+Require valid-user

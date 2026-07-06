@@ -1,0 +1,91 @@
+; =========================
+; APP SETTINGS
+; =========================
+[app]
+
+; Number of domains per batch
+; batchsize=10 keeps server processes around 5/50.
+; 15 is too high on shared server at 50/50 processes.
+; batchsize=5 is also 4/50 processes
+parallel_batch_size = 10
+
+; Accept Language Header value
+; No noticeable difference whether zh or en is the first value
+; Best to leave empty so we dont get zh on alsatien sites
+; e.g. Accept-Language: zh;q=1.0, es;q=0.9, fr;q=0.8, pt;q=0.7, *;q=0.5
+accept_language_header = ""
+
+; Crawler user agent value
+crawler_user_agent = "Mozilla/5.0 (compatible; MecildiLanguageDetector/1.0; +https://www.obdilci.org/projects/mecildi/detector/)"
+
+
+; =========================
+; DATABASE SETTINGS
+; =========================
+[database]
+
+; Database server host (usually localhost)
+host = ""
+
+; Database name
+name = ""
+
+; Database user
+user = ""
+
+; Database password
+password = ""
+
+
+; =========================
+; LANGUAGE DETECTION SETTINGS
+; =========================
+[langdetect]
+
+; Service name: TOMEDES or GOOGLETRANSLATE
+service_name = "TOMEDES"
+
+; Number of characters to send to detection service
+chars_to_send = 1500
+
+; Minimum number of characters required before detection runs
+min_chars = 250
+
+; Enable or disable language detection
+enabled = true
+
+; API key ownership tracking
+auth_key_owner = ""
+
+; Google Translate API key
+google_auth_key = ""
+
+; TOMEDES API key
+tomedes_auth_key = ""
+
+
+; =========================
+; PERFORMANCE ESTIMATES
+; =========================
+[performance]
+
+; Estimated seconds per domain for crawling
+seconds_per_domain = 0.75
+
+; Estimated seconds per domain for Excel generation
+seconds_per_domain_excel = 0.019
+
+
+; =========================
+; DEBUG SETTINGS
+; =========================
+[debug]
+
+; Overall debug mode: on|off
+debug_mode = "off"
+
+; Skips crawling, only creates Excel files from existing raw data
+; If true, skips crawling and only creates Excel files
+; Assumes raw .txt crawl data already exists
+; Doesn't matter if "debug_mode" is on or off
+create_excel_only = false

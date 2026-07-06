@@ -1,0 +1,37 @@
+# Composer
+/vendor/
+
+# Ignore temporary processing folders
+temp-input/
+temp-output-raw/
+temp-output-final/
+
+# Ignore sensitive configuration
+config/app.ini
+
+# Ignore everything in the logs folder
+logs/*
+
+# Ignore htpasswd and htaccess
+.htaccess
+.htpasswd
+.user.ini
+
+# Ignore process files
+process.accumulated
+process.downloadpath
+process.pid
+process.starttime
+process.status
+process.stoptime
+
+# But don't ignore the .gitkeep file (this keeps the folder in Git)
+!logs/.gitkeep
+
+# Ignore server error log
+error_log
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+

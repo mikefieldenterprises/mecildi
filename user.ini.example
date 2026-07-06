@@ -1,0 +1,31 @@
+; -----------------------------------------------------
+; Allow large batch uploads (more than 20 files)
+; -----------------------------------------------------
+max_file_uploads = 500
+
+; -----------------------------------------------------
+; Allow large POST bodies (must be larger than total upload)
+; -----------------------------------------------------
+post_max_size = 200M
+
+; -----------------------------------------------------
+; Maximum size of a single uploaded file
+; -----------------------------------------------------
+upload_max_filesize = 100M
+
+; -----------------------------------------------------
+; Prevent request truncation for long-running uploads
+; -----------------------------------------------------
+max_input_time = 600
+max_execution_time = 600
+
+; -----------------------------------------------------
+; Memory for processing uploads
+; -----------------------------------------------------
+memory_limit = 512M
+
+; -----------------------------------------------------
+; Disable output buffering so progress displays immediately
+; -----------------------------------------------------
+output_buffering = Off
+zlib.output_compression = Off
