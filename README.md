@@ -11,7 +11,9 @@ To maintain transparency, the crawler identifies itself to webmasters using a cu
 
 If you use MECILDI in academic research, please cite:
 
-Pimienta, D. and Field, M. (2026). MECILDI: A Multilingual-Aware Computational Framework for Measuring Language Distribution on the Internet. Frontiers in Research Metrics and Analysis. [DOI to be added upon publication]
+Pimienta, D. and Field, M. (2026). MECILDI: A Multilingual-Aware Computational Framework for Measuring Language Distribution on the Internet. [DOI to be added upon publication]
+
+Software DOI: https://doi.org/10.5281/zenodo.21212299
 
 
 ---
