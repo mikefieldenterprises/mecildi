@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: MECILDI Language Detector
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Field
+    given-names: Mike
+    orcid: https://orcid.org/0009-0009-5892-7937
+  - family-names: Pimienta
+    given-names: Daniel
+version: 1.8
+date-released: 2026-07-05
+url: https://github.com/mikefieldenterprises/mecildi
+preferred-citation:
+  type: article
+  title: "MECILDI: A Multilingual-Aware Computational Framework for Measuring Language Distribution on the Internet"
+  authors:
+    - family-names: Pimienta
+      given-names: Daniel
+    - family-names: Field
+      given-names: Mike
+      orcid: https://orcid.org/0009-0009-5892-7937
+  journal: "Frontiers in Research Metrics and Analysis"
+  year: 2026
+  notes: "DOI to be added upon publication"
